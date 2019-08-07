@@ -6,7 +6,9 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    (BRANDS << brand).uniq
+    BRANDS.each { |specific_brand| 
+      if 
+    }
   end
 
   def cobble
