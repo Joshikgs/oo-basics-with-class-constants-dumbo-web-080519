@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
     BRANDS.each { |specific_brand| 
       if BRANDS.include?(specific_brand)
-        return BRANDS
+        pass
       else
         BRANDS << brand
       end
