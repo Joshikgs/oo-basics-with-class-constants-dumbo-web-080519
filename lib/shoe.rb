@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS.each { |specific_brand| 
-      if 
+      if brand.include?()
     }
   end
 
